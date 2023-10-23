@@ -176,7 +176,7 @@ main {
   top: 3%;
   left: 30%;
   max-width: 600px;
-  padding: 40px;
+  padding: 15px 30px;
   border-radius: 5px;
   z-index: 10;
 }
@@ -193,13 +193,14 @@ h3 {
 .btn-start {
   position: relative;
   left: 28%;
-  top: 40px;
+  top: 22px;
   font-size: 25px;
+  color: #fff;
   padding: 8px;
-  background-color: beige;
-  border-radius: 5px;
+  background-color: #C73672;
   border: 2px solid brown;
   margin-bottom: 20px;
+  border-radius: 9px;
 }
 
 .overlay {
@@ -227,4 +228,10 @@ h3 {
 
 .hide {
   display: none;
+}
+
+input[type=text] {
+  width: 300px;
+  height: 30px;
+  border-radius: 25px;
 }
